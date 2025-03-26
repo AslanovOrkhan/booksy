@@ -1,0 +1,450 @@
+@import "./reset.css";
+@import "./header.css";
+
+/* category service start */
+main .category-service .swiper {
+  width: 100%;
+  height: 100%;
+}
+main .category-service .swiper .swiper-wrapper .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.7rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+main .category-service .swiper .swiper-wrapper .swiper-slide .image {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(36, 35, 35);
+  padding: 0.8rem;
+  border-radius: 10px;
+  transition: 0.2s linear;
+}
+main .category-service .swiper .swiper-wrapper .swiper-slide .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+main .category-service .swiper .swiper-wrapper .swiper-slide .title {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+/* category service end */
+
+/* promotional advertising slider start */
+main .promotional-advertising .swiper {
+  width: 100%;
+  height: 100%;
+}
+main .promotional-advertising .swiper .swiper-wrapper .swiper-slide {
+  border-radius: 10px;
+  overflow: hidden;
+}
+main .promotional-advertising .swiper .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s linear;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+main .promotional-advertising .swiper .swiper-wrapper .swiper-slide img:hover {
+  scale: 1.1;
+}
+/* promotional advertising slider end */
+/* popular services start */
+main .popular-services .swiper {
+  width: 100%;
+  height: 100%;
+}
+main .popular-services .swiper .slider-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+main .popular-services .swiper .slider-title h3 {
+  color: #fff;
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+main .popular-services .swiper .swiper-wrapper .swiper-slide {
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+main .popular-services .swiper .swiper-wrapper .swiper-slide:hover .image img {
+  scale: 1.1;
+}
+main .popular-services .swiper .swiper-wrapper .swiper-slide .image {
+  overflow: hidden;
+}
+main .popular-services .swiper .swiper-wrapper .swiper-slide .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  transition: 0.2s linear;
+}
+main .popular-services .swiper .swiper-wrapper .swiper-slide .name {
+  padding: 1rem 0 1rem 1.5rem;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+}
+main .popular-services .swiper .swiper-wrapper .swiper-slide .name span {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+/* popular services end */
+/* restautaurants slider start */
+main .restaurants .swiper {
+  width: 100%;
+  height: 100%;
+}
+main .restaurants .swiper .slider-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+main .restaurants .swiper .slider-title h3 {
+  color: #fff;
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+main .restaurants .swiper .slider-title .slider-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+main
+  .restaurants
+  .swiper
+  .slider-title
+  .slider-navigation
+  .swiper-button-custom-prev,
+main
+  .restaurants
+  .swiper
+  .slider-title
+  .slider-navigation
+  .swiper-button-custom-next {
+  padding: 0.5rem 0.8rem;
+  border-radius: 50%;
+  background: #001924;
+}
+main
+  .restaurants
+  .swiper
+  .slider-title
+  .slider-navigation
+  .swiper-button-custom-prev
+  i,
+main
+  .restaurants
+  .swiper
+  .slider-title
+  .slider-navigation
+  .swiper-button-custom-next
+  i {
+  font-size: 1.1rem;
+  color: #009de0;
+}
+main
+  .restaurants
+  .swiper
+  .slider-title
+  .slider-navigation
+  .swiper-button-custom-disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+main .restaurants .swiper .swiper-wrapper .swiper-slide {
+  border-radius: 10px;
+  overflow: hidden !important;
+}
+main .restaurants .swiper .swiper-wrapper .swiper-slide .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+main .restaurants .swiper .swiper-wrapper .swiper-slide .content {
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+main
+  .restaurants
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .content
+  .content-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 0.8rem;
+}
+main
+  .restaurants
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .content
+  .content-description
+  div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding-top: 1.2rem;
+  gap: 0.2rem;
+}
+main
+  .restaurants
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .content
+  .content-description
+  div
+  span {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+main
+  .restaurants
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .content
+  .content-description
+  div
+  p {
+  color: aliceblue;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+}
+main
+  .restaurants
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .content
+  .content-description
+  .time {
+  border-radius: 10px;
+  text-align: center;
+  color: #009de0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.3rem 0.5rem;
+  background: #3f3f3f;
+}
+main
+  .restaurants
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .content
+  .content-footer {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  align-items: center;
+  gap: 0.3rem;
+  border-top: 1px dotted #3f3f3f;
+  padding: 0.4rem 0.8rem;
+}
+main
+  .restaurants
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .content
+  .content-footer
+  i {
+  color: #009de0;
+}
+main
+  .restaurants
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .content
+  .content-footer
+  span {
+  color: #009de0;
+}
+/* restautaurants slider end */
+/* footer start */
+footer {
+  background: #141414;
+}
+footer .footer-main {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  width: 100%;
+  gap: 2.3rem;
+}
+footer .footer-main .footer-app_links .app-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 1.7rem;
+}
+footer .footer-main .footer-app_links .app-logo div .footer-logo {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: 700;
+  font-family: "Emblema One", system-ui;
+}
+footer .footer-main .footer-app_links .app-logo .footer-app {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+footer .footer-main .footer-app_links .app-logo .footer-app div {
+  width: 150px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+footer .footer-main .footer-app_links .app-logo .footer-app div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  background: #fff;
+}
+footer .footer-main .footer-services {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 1.1rem;
+}
+footer .footer-main .footer-services .services-title {
+  color: #aaaaaa;
+  font-size: 1.1rem;
+  cursor: default;
+}
+footer .footer-main .footer-services .services-title i {
+  display: none;
+}
+footer .footer-main .footer-services .services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.6rem;
+  width: 100%;
+}
+footer .footer-main .footer-services .services-container a {
+  color: #fff;
+  font-size: 1rem;
+  position: relative;
+}
+footer .footer-main .footer-services .services-container a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background: #fff;
+  transition: 0.3s;
+}
+footer .footer-main .footer-services .services-container a:hover::before {
+  width: 100%;
+}
+/* footer end */
+
+/* media screen */
+@media (max-width: 991px) {
+  footer .footer-main {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: start;
+    gap: 1rem;
+  }
+  footer .footer-main .footer-app_links {
+    margin-bottom: 3.2rem;
+  }
+  footer .footer-main .footer-app_links .app-logo .footer-app {
+    flex-direction: row;
+  }
+  footer .footer-main .footer-services .services-title {
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  footer .footer-main .footer-services .services-title i {
+    display: block;
+  }
+  footer .footer-main .footer-services .services-container {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+  }
+  footer .footer-main .footer-services .services-container.active {
+    max-height: 1000px;
+  }
+}
+@media (max-width: 768px) {
+  .promotional-advertising .swiper .swiper-button-next,
+  .promotional-advertising .swiper .swiper-button-prev {
+    display: none;
+  }
+  .restaurants
+    .restaurant-slider
+    .swiper-wrapper
+    .swiper-slide
+    .content-description
+    .time {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  main .popular-services .swiper .slider-title {
+    margin-bottom: 0.6rem;
+  }
+  main .popular-services .swiper .slider-title h3 {
+    font-size: 1.5rem;
+  }
+  main .popular-services .swiper .swiper-wrapper .swiper-slide .name {
+    padding: 0.5rem 0 0.5rem 1rem;
+  }
+  main .popular-services .swiper .swiper-wrapper .swiper-slide .name span {
+    font-size: 1rem;
+  }
+  main .restaurants .swiper .slider-title h3 {
+    font-size: 1.5rem;
+  }
+  main .restaurants .swiper .slider-title .slider-navigation {
+    display: none;
+  }
+}
