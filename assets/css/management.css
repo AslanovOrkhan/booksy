@@ -1,8 +1,6 @@
+@import "./reset.css";
 .sidebar {
   width: 4%;
-}
-.navbar {
-  display: none;
 }
 .side-menu_item {
   top: 0;
@@ -17,14 +15,7 @@
   visibility: visible;
   opacity: 1;
 }
-/* #toggle-menu{
-  cursor: pointer;
-} */
 @media (max-width: 991px) {
-  .navbar {
-    display: flex;
-    border-bottom: 1px solid #676666;
-  }
   .my-divider {
     display: none;
   }
@@ -42,5 +33,56 @@
     visibility: visible;
     opacity: 1;
     margin-left: 3rem;
-   }
+  }
 }
+/* 
+
+
+@media (max-width: 991px) {
+
+  .my-divider {
+    display: none;
+  }
+} */
+/*.navbar {
+  display: none;
+}
+
+.form-group,
+.main-content,
+input,
+.list-item{
+  background: #f2f1f1 !important;
+}
+
+#search-icon,
+.icons,
+.user-avatar
+ {
+  color: #595757;
+}
+.user-circle {
+  background:#E5E5E5;
+  color: #979797;
+}
+.calendar-icon{
+ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.user-avatar,
+.owner{
+  background: #E8E8E8;
+
+}
+#toggle-menu{
+  cursor: pointer;
+}
+@media (max-width: 991px) {
+  .navbar {
+    display: flex;
+    border-bottom: 1px solid #676666;
+  }
+  .my-divider {
+    display: none;
+  }
+
+} */
