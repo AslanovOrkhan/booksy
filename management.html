@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="/assets/css/management.css" />
   </head>
   <body>
-    <div class="container-fluid w-100 vh-100 overflow-hidden w-0 p-0 bg-warning">
+    <div class="container-fluid w-100 vh-100 overflow-hidden w-0 p-0">
       <nav
         class="navbar navbar-expand-lg sticky-top top-0 w-100 bg-dark py-3 d-block d-lg-none"
       >
@@ -41,9 +41,9 @@
           </div>
         </div>
       </nav>
-      <main class="h-100 w-100 overflow-hidden border border-dark">
+      <main class="h-100 w-100 overflow-hidden border border-dark d-flex">
         <!-- Sidebar -->
-        <nav class="sidebar bg-dark sidebar py-0 py-md-3 z-3 h-100">
+        <nav class="sidebar bg-dark sidebar py-0 py-lg-3 h-100">
           <div
             class="row h-100 m-auto flex-grow-1 d-flex align-items-start align-items-lg-center justify-content-start gap-3 w-100"
           >
@@ -191,112 +191,198 @@
             </div>
           </div>
         </nav>
-      </main>
-    </div>
-    <!-- <div
-      class="container-fluid vh-100 d-flex flex-column p-0 overflow-hidden p-relative"
-    > -->
-    <!-- Navbar -->
-
-    <!-- Main Content Wrapper -->
-    <!-- <div class="d-flex flex-grow-1"> -->
-
-    <!-- Main Content -->
-    <!-- <main class="flex-grow-1">
-          <div class="row">
-            <div class="col">
-              <ul
-                class="navbar-nav d-flex flex-row gap-3 gap-md-5 px-1 px-md-3 py-2 border-bottom"
-              >
-                <li class="nav-item active">
-                  <a class="nav-link text-dark text-capitalize" href="#"
-                    >Staf Members</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark text-capitalize" href="#"
-                    >Shifts</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark text-capitalize" href="#"
-                    >resources</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark text-capitalize" href="#"
-                    >commisions</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="main-content row h-100">
-            <div class="col-12 col-lg-3 bg-light  p-0 d-flex flex-column">
-              <form class="px-5 py-4">
-                <div
-                  class="form-group d-flex flex-row gap-2 align-items-center rounded-3 py-1 px-3"
+        <!-- content -->
+        <section class="main-content flex-grow-1 h-100 w-100">
+          <div class="container-fluid w-100 h-100 p-0">
+            <div class="row">
+              <div class="col">
+                <ul
+                  class="navbar-nav d-flex flex-row gap-2 gap-lg-5 px-1 px-lg-3 py-2 border-bottom"
                 >
-                  <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
-                  <input
-                    type="email"
-                    placeholder="Search staff members..."
-                    class="w-100 border-0 text-capitalize shadow-none form-control"
-                  />
-                </div>
-              </form>
-              <ul class="user-list d-flex flex-column gap-2 w-100 m-0 p-0">
-                <li class="px-5 py-4 list-item">
-                  <i class="fa-solid fa-bars"></i>
-                  <span
-                    class="text-uppercase p-3 rounded-circle mx-3 user-circle"
-                    >a</span
-                  >
-                  <a href="#" class="text-dark">Aadd</a>
-                </li>
-              </ul>
+                  <li class="nav-item active">
+                    <a class="nav-link text-dark text-capitalize" href="#"
+                      >Staf Members</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark text-capitalize" href="#"
+                      >Shifts</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark text-capitalize" href="#"
+                      >resources</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark text-capitalize" href="#"
+                      >commisions</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="col-5 col-lg-3 border border-dark">
-              <div class="row d-flex flex-column">
-                <div class="col border border-dark py-3 px-4 d-flex flex-column align-items-center g-5">
-                  <div
-                     class="staf-details d-flex justify-content-between align-items-start w-100 pt-2">
-                    <a class="icons"
-                      ><i
-                        class="fa-solid fa-pencil border border-dark p-2 bg-light rounded-2 cursor-pointer"
-                      ></i
-                    ></a>
-                    <a class="avatar d-flex flex-column gap-4 align-items-center">
-                      <span class="px-4 py-3 user-avatar rounded-circle text-uppercase fs-3">a</span>
-                      <div class="staffer-name w-100">
-                        <p class="text-dark fs-3 fw-bold text-center">Orkhan</p>
+            <div class="content h-100">
+              <div class="container-fluid h-100 w-100">
+                <div class="row border h-100 h-lg-auto">
+                  <div class="col-12 col-lg-3 bg-light p-0 d-flex flex-column">
+                    <form class="p-4">
+                      <div
+                        class="form-group d-flex flex-row gap-2 align-items-center rounded-3 py-1 px-3"
+                      >
+                        <i
+                          class="fa-solid fa-magnifying-glass"
+                          id="search-icon"
+                        ></i>
+                        <input
+                          type="email"
+                          placeholder="Search staff members..."
+                          class="w-100 border-0 text-capitalize shadow-none form-control"
+                        />
                       </div>
-                      <div class="staf-content d-flex flex-row align-items-center">
-                        <ul class="d-flex flex-row align-items-center gap-">
-                          <li class="bg-light p-2 rounded-2 d-flex align-items-center">
+                    </form>
+                    <ul
+                      class="user-list d-flex flex-column gap-2 w-100 m-0 p-0"
+                    >
+                      <li class="p-4 list-item">
+                        <i class="fa-solid fa-bars"></i>
+                        <span
+                          class="text-uppercase p-3 rounded-circle mx-3 user-circle"
+                          >a</span
+                        >
+                        <a href="#" class="text-dark">Aadd</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-12 m-0 col-lg-5 h-100 py-4 pl-3 pr-0">
+                    <div class="staf-details w-100 d-flex flex-column align-items-center justify-content-between">
+                      <div class="container w-100 p-0 m-0">
+                        <div
+                          class="row w-100 d-flex justify-content-between p-0 m-0"
+                        >
+                          <div class="col-4 p-0">
+                            <a class="icons">
+                              <i
+                                class="fa-solid fa-pencil border border-dark p-2 bg-light rounded-2 text-dark cursor-pointer"
+                              >
+                              </i>
+                            </a>
+                          </div>
+                          <div
+                            class="col-4 p-0 d-flex justify-content-center"
+                          >
+                            <a
+                              class="avatar d-flex flex-column gap-4 align-items-center"
+                            >
+                              <span
+                                class="px-4 py-3 user-avatar text-dark rounded-circle text-uppercase fs-3"
+                                >a</span
+                              >
+                              <div class="staffer-name w-100">
+                                <p class="text-dark fs-3 fw-bold text-center">
+                                  Orkhan
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="col-4 p-0 d-flex justify-content-end">
+                            <a class="calendar-icon bg-light rounded-3 px-2  border border-dark h-25 d-flex align-items-center gap-1">
+                              <span class="text-dark fw-bold show-calendar text-center">
+                                show calendar
+                                </span>
+                              <i
+                                class="fa-solid fa-calendar-days text-dark"
+                              ></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                     <div
+                        class="staf-content d-flex flex-row align-items-center"
+                      >
+                        <ul
+                          class="d-flex flex-row align-items-center justify-content-between gap-2 w-100 p-0 m-0"
+                        >
+                          <li
+                            class="bg-light p-2 rounded-2 d-flex align-items-center"
+                          >
                             <i class="fa-solid fa-star text-warning fs-6"></i>
                             <i class="fa-solid fa-star text-warning fs-6"></i>
                           </li>
-                          <li class="owner p-1 rounded-2"><span class="text-dark">owner</span></li>
-                          <li><span class="text-dark fs-6">orkhan1997@gmail.com</span></li>
+                          <li class="owner p-1 rounded-2">
+                            <span class="text-dark">owner</span>
+                          </li>
+                          <li>
+                            <span class="text-dark fs-6"
+                              >orkhan1997@gmail.com</span
+                            >
+                          </li>
                         </ul>
-                      </div>
-                    </a>
-                    <a
-                      class="calendar-icon py-1 px-3 d-flex align-items-center gap-2 bg-light rounded-3"
-                      ><span class="text-dark">show calendar</span>
-                      <i class="fa-solid fa-calendar-days text-dark"></i
-                    ></a>
+                      </div> 
+                    </div>
+                    <div class="staf-detail-tabs w-100 mt-4 bg-light rounded-top">
+                       <div class="tab-heading w-100">
+                        <ul class="d-flex align-center gap-5">
+                          <li class="tab-item active py-3"><a href="#" class="text-dark">Services<span>(3)</span> </a></li>
+                          <li class="tab-item py-3"><a href="#" class="text-dark">Working hours</a></li>
+                        </ul>
+                       </div>
+                    </div>
                   </div>
+                  <div class="col-4"></div>
                 </div>
-                <div class="col border border-primary"></div>
               </div>
             </div>
-            <div class="col-4"></div>
           </div>
-        </main>
-      </div>
-    </div> -->
+        </section>
+      </main>
+    </div>
+
     <script src="/assets/js/management.js"></script>
   </body>
 </html>
+<!-- <div class="row d-flex flex-column align-items-center">
+  <div class="col border border-dark py-3 px-4 d-flex flex-column align-items-center">
+    <div class="staf-details d-flex justify-content-between align-items-start w-100">
+    
+    </a> 
+     
+     
+    </div>
+  </div>
+ </div>  -->
+<!-- <form class="px-5 py-4">
+  <div
+    class="form-group d-flex flex-row gap-2 align-items-center rounded-3 py-1 px-3"
+  >
+    <i
+      class="fa-solid fa-magnifying-glass"
+      id="search-icon"
+    ></i>
+    <input
+      type="email"
+      placeholder="Search staff members..."
+      class="w-100 border-0 text-capitalize shadow-none form-control"
+    />
+  </div>
+</form>
+<ul class="user-list d-flex flex-column gap-2 w-100 m-0 p-0">
+  <li class="px-5 py-4 list-item">
+    <i class="fa-solid fa-bars"></i>
+    <span
+      class="text-uppercase p-3 rounded-circle mx-3 user-circle"
+      >a</span
+    >
+    <a href="#" class="text-dark">Aadd</a>
+  </li>
+</ul> -->
+<!-- <div class="staf-content d-flex flex-row align-items-center">
+  <ul class="d-flex flex-row align-items-center justify-content-between gap-2 w-100 p-0 m-0 ">
+    <li class="bg-light p-2 rounded-2 d-flex align-items-center">
+      <i class="fa-solid fa-star text-warning fs-6"></i>
+      <i class="fa-solid fa-star text-warning fs-6"></i>
+    </li>
+    <li class="owner p-1 rounded-2"><span class="text-dark">owner</span></li>
+    <li><span class="text-dark fs-6">orkhan1997@gmail.com</span></li>
+  </ul>
+</div> -->
