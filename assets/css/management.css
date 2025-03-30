@@ -2,6 +2,9 @@
 .sidebar {
   width: 4%;
 }
+.app-main_content {
+  height: 100vh;
+}
 .side-menu_item {
   top: 0;
   left: 0;
@@ -38,10 +41,14 @@ input,
 .tab-item.active {
   border-bottom: 2px solid black;
 }
-.tab-heading ul{
+.tab-heading ul {
   border-bottom: 1px solid #ebebeb;
 }
+
 @media (max-width: 991px) {
+  .app-main_content {
+    height: 100%;
+  }
   .my-divider {
     display: none;
   }
@@ -63,4 +70,10 @@ input,
   .h-lg-auto {
     height: auto !important;
   }
+  .main-content {
+    overflow-x: hidden;
+  }
+  /* .main-content::-webkit-scrollbar {
+    display: none;
+  } */
 }
