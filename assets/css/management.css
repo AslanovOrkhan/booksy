@@ -44,7 +44,14 @@ input,
 .tab-heading ul {
   border-bottom: 1px solid #ebebeb;
 }
-
+.nav-item{
+  color: #595757;
+}
+.nav-item.active{
+  border-bottom: 2px solid black;
+  font-weight: 700;
+  color: #000;
+}
 @media (max-width: 991px) {
   .app-main_content {
     height: 100%;
@@ -72,6 +79,10 @@ input,
   }
   .main-content {
     overflow-x: hidden;
+  }
+  .nav-item{
+    color: #595757;
+    font-size: .8rem;
   }
   /* .main-content::-webkit-scrollbar {
     display: none;
