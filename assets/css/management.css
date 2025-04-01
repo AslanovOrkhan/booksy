@@ -25,9 +25,9 @@
 }
 .sidebar-avatar-btn span{
   position: absolute;
-  top: 65%;
-  right: -15%;
-   background:#fff;
+  top: 60%;
+  right: -13%;
+  background:#fff;
   color: #000;
   text-transform: uppercase;
   font-size: .6rem;
@@ -124,7 +124,7 @@ input,
     height: auto !important;
   }
   .list-container{
-    height: 100% !important;
+    height:83% !important;
     padding: .5rem 1rem;
   }
   .main-content {
