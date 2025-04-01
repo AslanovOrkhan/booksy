@@ -23,19 +23,19 @@
   color: #9799a8;
   position: relative;
 }
-.sidebar-avatar-btn span{
+.sidebar-avatar-btn span {
   position: absolute;
   top: 60%;
   right: -13%;
-  background:#fff;
+  background: #fff;
   color: #000;
   text-transform: uppercase;
-  font-size: .6rem;
-  padding: .1rem .3rem;
+  font-size: 0.6rem;
+  padding: 0.1rem 0.3rem;
   border-radius: 50%;
   font-weight: 700;
 }
-.navbar{
+.navbar {
   border-bottom: 1px solid #3a3a3a;
 }
 .menu-item:hover .side-menu_item {
@@ -72,7 +72,9 @@ input,
 .nav-item {
   color: #595757;
 }
-
+.content-nav_heading {
+  border-bottom: 1px solid #d9d8d8;
+}
 .nav-item.active {
   border-bottom: 2px solid black;
   font-weight: 700;
@@ -123,9 +125,9 @@ input,
   .h-lg-auto {
     height: auto !important;
   }
-  .list-container{
-    height:83% !important;
-    padding: .5rem 1rem;
+  .list-container {
+    height: 83% !important;
+    padding: 0.5rem 1rem;
   }
   .main-content {
     overflow-x: hidden;
