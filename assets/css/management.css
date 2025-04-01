@@ -59,6 +59,8 @@ input,
 .user-avatar {
   background: #e6e6e6;
   color: #979797;
+  border: none;
+  outline:none;
 }
 .show-calendar {
   font-size: 0.7rem;
@@ -79,6 +81,13 @@ input,
   border-bottom: 2px solid black;
   font-weight: 700;
   color: #000;
+}
+.account-title{
+  color: #979797;
+  font-size: .6rem;
+}
+.account-name{
+  font-size: .7rem;
 }
 .modal-head {
   display: flex;
