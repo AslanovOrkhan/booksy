@@ -1,0 +1,162 @@
+@import "./reset.css";
+.sidebar {
+  width: 4%;
+}
+.app-main_content {
+  height: 100vh;
+}
+.side-menu_item {
+  top: 0;
+  left: 0;
+  margin-left: 3rem;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.2s linear;
+  position: absolute;
+}
+.language-icon {
+  font-size: 0.5rem;
+}
+.sidebar-avatar-btn {
+  border: none;
+  outline: none;
+  color: #9799a8;
+  position: relative;
+}
+.sidebar-avatar-btn span {
+  position: absolute;
+  top: 60%;
+  right: -13%;
+  background: #fff;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  padding: 0.1rem 0.3rem;
+  border-radius: 50%;
+  font-weight: 700;
+}
+.navbar {
+  border-bottom: 1px solid #3a3a3a;
+}
+.menu-item:hover .side-menu_item {
+  visibility: visible;
+  opacity: 1;
+}
+.main-content {
+  background-color: #f4f4f4;
+}
+.navbar-nav {
+  border-bottom: 1px solid #ebebeb;
+}
+.form-group,
+.main-content,
+input,
+.list-item {
+  background: #f2f1f1 !important;
+}
+
+.user-avatar {
+  background: #e6e6e6;
+  color: #979797;
+  border: none;
+  outline: none;
+}
+.show-calendar {
+  font-size: 0.7rem;
+}
+.tab-item.active {
+  border-bottom: 2px solid black;
+}
+
+.nav-item {
+  color: #595757;
+}
+.content-nav_heading {
+  border-bottom: 1px solid #d9d8d8;
+}
+.nav-item.active {
+  border-bottom: 2px solid black;
+  font-weight: 700;
+  color: #000;
+}
+.account-title {
+  color: #979797;
+  font-size: 0.6rem;
+}
+.account-name {
+  font-size: 0.7rem;
+}
+
+.currently-user {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.location-user {
+  font-size: 0.8rem;
+  color: #979797;
+}
+.logout-btn {
+  transition: 0.3s linear;
+}
+.logout-btn:hover {
+  background: #000;
+  color: #fff !important;
+}
+.detail-btn {
+  width: 50px;
+  height: 50px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.staf-details {
+  height: 92vh;
+  overflow-y: auto;
+}
+.content {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.content h4 {
+  font-size: 1.2rem;
+}
+.content p {
+  color: #8c8b88;
+  font-size: 0.8rem;
+}
+@media (max-width: 991px) {
+  .app-main_content {
+    height: 100%;
+  }
+  .my-divider {
+    display: none;
+  }
+  .sidebar {
+    width: 100%;
+    position: fixed;
+    left: -100%;
+    height: 100%;
+    transition: 0.4s ease;
+  }
+  .sidebar.active {
+    left: 0;
+  }
+  .side-menu_item {
+    visibility: visible;
+    opacity: 1;
+    margin-left: 3rem;
+  }
+  .h-lg-auto {
+    height: auto !important;
+  }
+  .list-container {
+    height: 83% !important;
+    padding: 0.5rem 1rem;
+  }
+  .main-content {
+    overflow-x: hidden;
+  }
+  .nav-item {
+    color: #595757;
+    font-size: 0.8rem;
+  }
+  .staf-details {
+    height: 100%;
+  }
+}
