@@ -1,22 +1,9 @@
 @import "./reset.css";
 @import "./sidebar.css";
-
 .app-main_content {
   height: 100vh;
 }
-.side-menu_item {
-  top: 0;
-  left: 0;
-  margin-left: 3rem;
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.2s linear;
-  position: absolute;
-}
-.language-icon {
-  font-size: 0.5rem;
-}
- 
+
 .navbar {
   border-bottom: 1px solid #3a3a3a;
 }
@@ -109,7 +96,6 @@ input,
   .my-divider {
     display: none;
   }
-  
   .h-lg-auto {
     height: auto !important;
   }

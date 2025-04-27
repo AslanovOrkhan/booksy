@@ -104,21 +104,6 @@ input,
   .my-divider {
     display: none;
   }
-  .sidebar {
-    width: 100%;
-    position: fixed;
-    left: -100%;
-    height: 100%;
-    transition: 0.4s ease;
-  }
-  .sidebar.active {
-    left: 0;
-  }
-  .side-menu_item {
-    visibility: visible;
-    opacity: 1;
-    margin-left: 3rem;
-  }
   .h-lg-auto {
     height: auto !important;
   }
