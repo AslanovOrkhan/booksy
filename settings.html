@@ -18,8 +18,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Services Page</title>
-    <link rel="stylesheet" href="/assets/css/services.css" />
+    <title>Settings Page</title>
+    <link rel="stylesheet" href="/assets/css/settings.css" />
   </head>
   <body>
     <div
@@ -207,64 +207,130 @@
         </nav>
         <!-- content -->
         <div
-          class="main-content w-100 d-flex min-vh-lg-100 h-100 flex-column"
-          style="min-height: 100vh"
+          class="main-content w-100 d-flex min-vh-lg-100 h-100 flex-column overflow-y-scroll"
+          style="height: 100vh"
         >
-          <div class="container-fluid p-2 p-lg-4">
+          <div class="row m-0 p-lg-5 p-2">
             <div
-              class="row m-0 p-0 w-100 d-flex align-item-start flex-column mt-4 mt-lg-0"
+              class="col-12 col-lg-9 d-flex flex-column flex-lg-row justify-content-between align-items-center m-0 p-0"
             >
-              <h3 class="title fw-medium fw-lg-bold fs-7 fs-lg-2">
-                Gift Cards & Bundled Services
+              <h3 class="title fw-medium fw-lg-bold fs-7 fs-lg-5">
+                Business Settings
               </h3>
-              <div class="col-12 col-lg-9 p-0 m-0">
-                <div class="row w-100 p-0 m-0">
-                  <div class="col-12 col-lg-6 p-1 p-lg-3 mt-4">
-                    <div
-                      class="content bg-light p-3 p-lg-4 rounded-3 d-flex flex-column align-items-start gap-2"
-                    >
-                      <h4 class="fw-semibold">Gift Cards</h4>
-                      <p class="">
-                        your customers to buy gift cards and share your talent
-                        with their friends
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-12 col-lg-6 p-1 p-lg-3 mt-4">
-                    <div
-                      class="content bg-light p-3 p-lg-4 rounded-3 d-flex flex-column align-items-start gap-2"
-                    >
-                      <h4 class="fw-semibold">Packages</h4>
-                      <p class="">
-                        your customers to buy gift cards and share your talent
-                        with their friends
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-12 col-lg-6 p-1 p-lg-3 mt-4">
-                    <div
-                      class="content bg-light p-3 p-lg-4 rounded-3 d-flex flex-column align-items-start gap-2"
-                    >
-                      <h4 class="fw-semibold">MemberShip</h4>
-                      <p class="">
-                        your customers to buy gift cards and share your talent
-                        with their friends
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-12 col-lg-6 p-1 p-lg-3 mt-4">
-                    <div
-                      class="content bg-light p-3 p-lg-4 rounded-3 d-flex flex-column align-items-start gap-2"
-                    >
-                      <h4 class="fw-semibold">Packages</h4>
-                      <p class="">
-                        your customers to buy gift cards and share your talent
-                        with their friends
-                      </p>
-                    </div>
-                  </div>
+              <form
+                class="search-services d-flex align-items-center bg-light px-3 py-2 rounded-2 gap-3 w-md-100"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input
+                  type="text"
+                  placeholder="search"
+                  class="border-0 bg-light"
+                />
+              </form>
+            </div>
+            <div class="cards-container col-12 col-lg-9 p-0 mt-4 mt-lg-5">
+              <a
+                href="#"
+                class="cards d-flex flex-column align-items-start gap-2 bg-light p-4 rounded-3"
+              >
+                <div class="d-flex align-items-start gap-2">
+                  <img
+                    src="/assets/icons/business-details.45d0d8ed.svg"
+                    alt=""
+                  />
+                  <h5 class="text-dark">Payments & Checkouts</h5>
                 </div>
-              </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Optio atque repellendus repellat explicabo, modi illum
+                  delectus in culpa sapiente! Animi!
+                </p>
+              </a>
+              <a
+                href="#"
+                class="cards d-flex flex-column align-items-start gap-2 bg-light p-4 rounded-3"
+              >
+                <div class="d-flex align-items-start gap-2">
+                  <img
+                    src="/assets/icons/business-details.45d0d8ed.svg"
+                    alt=""
+                  />
+                  <h5 class="text-dark">Payments & Checkouts</h5>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Optio atque repellendus repellat explicabo, modi illum
+                  delectus in culpa sapiente! Animi!
+                </p>
+              </a>
+              <a
+                href="#"
+                class="cards d-flex flex-column align-items-start gap-2 bg-light p-4 rounded-3"
+              >
+                <div class="d-flex align-items-start gap-2">
+                  <img
+                    src="/assets/icons/business-details.45d0d8ed.svg"
+                    alt=""
+                  />
+                  <h5 class="text-dark">Payments & Checkouts</h5>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Optio atque repellendus repellat explicabo, modi illum
+                  delectus in culpa sapiente! Animi!
+                </p>
+              </a>
+              <a
+                href="#"
+                class="cards d-flex flex-column align-items-start gap-2 bg-light p-4 rounded-3"
+              >
+                <div class="d-flex align-items-start gap-2">
+                  <img
+                    src="/assets/icons/business-details.45d0d8ed.svg"
+                    alt=""
+                  />
+                  <h5 class="text-dark">Payments & Checkouts</h5>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Optio atque repellendus repellat explicabo, modi illum
+                  delectus in culpa sapiente! Animi!
+                </p>
+              </a>
+              <a
+                href="#"
+                class="cards d-flex flex-column align-items-start gap-2 bg-light p-4 rounded-3"
+              >
+                <div class="d-flex align-items-start gap-2">
+                  <img
+                    src="/assets/icons/business-details.45d0d8ed.svg"
+                    alt=""
+                  />
+                  <h5 class="text-dark">Payments & Checkouts</h5>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Optio atque repellendus repellat explicabo, modi illum
+                  delectus in culpa sapiente! Animi!
+                </p>
+              </a>
+              <a
+                href="#"
+                class="cards d-flex flex-column align-items-start gap-2 bg-light p-4 rounded-3"
+              >
+                <div class="d-flex align-items-start gap-2">
+                  <img
+                    src="/assets/icons/business-details.45d0d8ed.svg"
+                    alt=""
+                  />
+                  <h5 class="text-dark">Payments & Checkouts</h5>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Optio atque repellendus repellat explicabo, modi illum
+                  delectus in culpa sapiente! Animi!
+                </p>
+              </a>
             </div>
           </div>
         </div>

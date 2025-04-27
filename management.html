@@ -18,12 +18,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Management Page</title>
+    <title>Managament Page</title>
     <link rel="stylesheet" href="/assets/css/management.css" />
   </head>
   <body>
     <div
-      class="app-main_content container-fluid w-100 w-0 p-0 position-relative"
+      class="app-main_content container-fluid w-100 m-0 p-0 position-relative"
     >
       <nav
         class="navbar navbar-expand-lg sticky-top top-0 w-100 bg-dark py-3 d-block d-lg-none"
@@ -82,7 +82,7 @@
                   href="#"
                   class="d-flex align-items-center justify-content-center menu-item mt-2 position-relative"
                 >
-                  <i class="fa-solid fa-calendar-days text-light fs-5"></i>
+                  <i class="fa-solid fa-calendar-days"></i>
 
                   <span
                     class="side-menu_item bg-dark text-light p-0 p-md-1 rounded"
@@ -93,7 +93,7 @@
                   href="#"
                   class="d-flex align-items-center justify-content-center menu-item mt-2 position-relative"
                 >
-                  <i class="fa-solid fa-money-bill text-light fs-5"></i>
+                  <i class="fa-solid fa-money-bill"></i>
                   <span
                     class="side-menu_item bg-dark text-light p-0 p-md-1 rounded"
                     >checkout</span
@@ -103,7 +103,7 @@
                   href="#"
                   class="d-flex align-items-center justify-content-center menu-item mt-2 position-relative"
                 >
-                  <i class="fa-solid fa-user text-light fs-5"></i>
+                  <i class="fa-solid fa-user"></i>
                   <span
                     class="side-menu_item bg-dark text-light p-0 p-md-1 rounded"
                     >clients</span
@@ -113,7 +113,7 @@
                   href="#"
                   class="d-flex align-items-center justify-content-center menu-item mt-2 position-relative"
                 >
-                  <i class="fa-solid fa-truck-moving text-light fs-5"></i>
+                  <i class="fa-solid fa-truck-moving"></i>
                   <span
                     class="side-menu_item bg-dark text-light p-0 p-md-1 rounded"
                     >inventory</span
@@ -123,7 +123,7 @@
                   href="#"
                   class="d-flex align-items-center justify-content-center menu-item mt-2 position-relative"
                 >
-                  <i class="fa-solid fa-volume-high text-light fs-5"></i>
+                  <i class="fa-solid fa-volume-high"></i>
 
                   <span
                     class="side-menu_item bg-dark text-light p-0 p-md-1 rounded"
@@ -134,7 +134,7 @@
                   href="/services.html"
                   class="d-flex align-items-center justify-content-center menu-item mt-2 position-relative"
                 >
-                  <i class="fa-solid fa-id-card text-light fs-5"></i>
+                  <i class="fa-solid fa-id-card"></i>
                   <span
                     class="side-menu_item bg-dark text-light p-0 p-md-1 rounded"
                     >cards</span
@@ -144,38 +144,37 @@
                   href="#"
                   class="d-flex align-items-center justify-content-center menu-item mt-2 position-relative"
                 >
-                  <i class="fa-solid fa-chart-line text-light fs-5"></i>
+                  <i class="fa-solid fa-chart-line"></i>
                   <span
                     class="side-menu_item bg-dark text-light p-0 p-md-1 rounded"
                     >reports</span
                   >
                 </a>
                 <a
-                href="/management.html"
-                class="d-flex align-items-center justify-content-center menu-item mt-2 position-relative"
-              >
-                <i class="fa-solid fa-people-group text-light fs-5"></i>
-                <span
-                  class="side-menu_item bg-dark text-light p-0 p-md-1 rounded"
-                  >management</span
-                >
-              </a>
-                <a
-                  href="#"
+                  href="/management.html"
                   class="d-flex align-items-center justify-content-center menu-item mt-2 position-relative"
                 >
-                  <i class="fa-solid fa-house text-light fs-5"></i>
+                  <i class="fa-solid fa-people-group"></i>
                   <span
                     class="side-menu_item bg-dark text-light p-0 p-md-1 rounded"
-                    >profile</span
+                    >management</span
                   >
                 </a>
                 <a
                   href="#"
                   class="d-flex align-items-center justify-content-center menu-item mt-2 position-relative"
                 >
-                 
-                  <i class="fa-solid fa-gears text-light fs-5"></i>
+                  <i class="fa-solid fa-house"></i>
+                  <span
+                    class="side-menu_item bg-dark text-light p-0 p-md-1 rounded"
+                    >profile</span
+                  >
+                </a>
+                <a
+                  href="/settings.html"
+                  class="d-flex align-items-center justify-content-center menu-item mt-2 position-relative"
+                >
+                  <i class="fa-solid fa-gears fs-5"></i>
                   <span
                     class="side-menu_item bg-dark text-light p-0 p-md-1 rounded"
                     >settings</span
@@ -185,8 +184,7 @@
                   href="#"
                   class="d-flex align-items-center justify-content-center menu-item mt-2 position-relative"
                 >
-                   <i class="fa-solid fa-question text-light fs-5"></i>
-                 
+                  <i class="fa-solid fa-question fs-5"></i>
                 </a>
               </div>
             </div>
@@ -207,7 +205,6 @@
             </div>
           </div>
         </nav>
-        <!-- content -->
         <div
           class="main-content w-100 d-flex min-vh-lg-100 h-100 flex-column"
           style="height: 100vh"
@@ -229,7 +226,6 @@
               <a class="nav-link text-capitalize" href="#">Commissions</a>
             </li>
           </ul>
-
           <!-- CONTENT AREA -->
           <div class="container-fluid overflow-hidden flex-grow-1">
             <div class="row h-100 h-lg-auto">
@@ -277,13 +273,12 @@
                     <a href="#" class="text-dark">Aadd</a>
                   </li>
                 </ul>
-                <button
+                <a
+                  href="/members.html"
                   class="detail-btn bg-dark position-absolute bottom-0 end-0 m-3 border-0 outline-0 rounded-circle d-lg-flex align-items-center justify-content-center d-none"
                 >
-                  <a href="#" class="text-light"
-                    ><i class="fa-solid fa-plus"></i
-                  ></a>
-                </button>
+                  <i class="fa-solid fa-plus text-light"></i>
+                </a>
               </div>
               <div class="col-12 staf-details m-0 col-lg-5 py-4 pl-3 pr-0">
                 <div
@@ -538,11 +533,12 @@
             </div>
           </div>
         </div>
-        <button
+        <a
+          href="/members.html"
           class="detail-btn bg-dark position-fixed bottom-0 end-0 m-3 border-0 outline-0 rounded-circle d-lg-none align-items-center justify-content-center d-flex"
         >
-          <a href="#" class="text-light"><i class="fa-solid fa-plus"></i></a>
-        </button>
+          <i class="fa-solid fa-plus text-light"></i>
+        </a>
       </main>
     </div>
     <!-- Bootstrap Bundle JS -->

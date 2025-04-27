@@ -115,10 +115,10 @@ header .login-registration .user {
 header .login-registration .user i {
   font-size: 1.5rem;
   color: white;
-}
+} 
 /* media screen */
 
-@media (max-width: 991px) {
+ @media (max-width: 991px) {
   header {
     align-items: start;
   }
