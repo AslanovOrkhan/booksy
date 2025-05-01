@@ -1,5 +1,6 @@
 .sidebar {
   width: 4%;
+  z-index: 99999;
 }
 .sidebar-avatar-btn {
   border: none;

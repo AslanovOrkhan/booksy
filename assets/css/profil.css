@@ -1,0 +1,238 @@
+@import "./reset.css";
+@import "./sidebar.css";
+.app-main_content {
+  height: 100vh;
+}
+.main-content {
+  background-color: #f4f4f4;
+}
+.main-content,
+input {
+  background: #f2f1f1 !important;
+}
+.navbar-nav {
+  border-bottom: 1px solid #ebebeb;
+}
+.nav-item {
+  color: #595757;
+}
+.nav-item.active {
+  border-bottom: 2px solid black;
+  font-weight: 700;
+  color: #000;
+}
+.user-avatar {
+  background: #e6e6e6;
+  color: #979797;
+  border: none;
+  outline: none;
+}
+.detail-btn {
+  width: 50px;
+  height: 50px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#search-icon,
+.icons,
+.user-avatar {
+  color: #595757;
+}
+.user-avatar {
+  background: #e6e6e6;
+  color: #979797;
+  border: none;
+  outline: none;
+}
+
+.content-nav_heading {
+  border-bottom: 1px solid #d9d8d8;
+}
+
+.account-title {
+  color: #979797;
+  font-size: 0.6rem;
+}
+.account-name {
+  font-size: 0.7rem;
+}
+.modal-head {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+}
+.currently-user {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.location-user {
+  font-size: 0.8rem;
+  color: #979797;
+}
+.logout-btn {
+  transition: 0.3s linear;
+}
+.logout-btn:hover {
+  background: #000;
+  color: #fff !important;
+}
+.detail-btn {
+  width: 50px;
+  height: 50px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.staf-details {
+  height: 92vh;
+  overflow-y: auto;
+}
+.business-header {
+  background-image: url(../images/barbers.png.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.add-cover a {
+  padding: 0.7rem;
+}
+.add-cover a span {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+.add-cover a i {
+  font-size: 0.5rem;
+  color: #979797;
+}
+.business-avatar_logo .logo {
+  width: 7rem;
+  height: 7rem;
+  background: #d6d6d7;
+  border: 4px solid #fff;
+}
+.business-avatar_rank {
+  position: absolute;
+  bottom: -10%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 999;
+  padding: 0.2rem 0.6rem;
+}
+.business-avatar_rank i {
+  color: #c0c0c4;
+}
+.profil_link {
+  color: #c0c0c4;
+}
+.profil_link span {
+  font-size: 0.8rem;
+}
+.title_card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.title_card .image {
+  height: 100px;
+}
+
+.title_card h3 {
+  font-size: 0.9rem;
+}
+.title_card p {
+  color: #979595;
+  font-size: 0.8rem;
+}
+.portfolio p {
+  font-size: 0.8rem;
+}
+.portfolio .image {
+  width: 20px;
+  height: 20px;
+}
+.portfolio .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.portfolio span,
+.portfolio label {
+  font-size: 0.8rem;
+}
+.profile_comment span {
+  font-size: 0.8rem;
+  padding-right: 7rem;
+}
+.profile_comment i {
+  color: #c7c7c7;
+}
+.columns-container::-webkit-scrollbar {
+  display: none;
+}
+.completenes-preview,
+.sidebar-bracket,
+.marketing_banner {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.completenes-preview .completes-titles {
+  height: 80px;
+  background-image: url(../images/tier_background_5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.completes-titles span,
+.completenes-preview div:nth-child(2) span,
+.marketing_banner p {
+  font-size: 0.7rem;
+}
+.completenes {
+  background: #dddcdc;
+}
+.index-sidebar {
+  background: #fff;
+  width: 85%;
+}
+.marketing_banner {
+  background: linear-gradient(117.68deg, #c4afff 41.52%, #98b5ff 82.06%);
+}
+.sidebar-bracket img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.sidebar-bracket span{
+  font-size: .9rem;
+}
+.sidebar-bracket p{
+  font-size: .7rem;
+  color: #8c8b88;
+}
+@media (max-width: 991px) {
+  .app-main_content {
+    height: 100%;
+  }
+  .my-divider {
+    display: none;
+  }
+  .h-lg-auto {
+    height: auto !important;
+  }
+  .list-container {
+    height: 83% !important;
+    padding: 0.5rem 1rem;
+  }
+  .main-content {
+    overflow-x: hidden;
+  }
+  .nav-item {
+    color: #595757;
+    font-size: 0.8rem;
+  }
+  .staf-details {
+    height: 100%;
+  }
+  .profile_comment span {
+    padding-right: 0;
+  }
+  .index-sidebar {
+    background: transparent;
+    width: 100%;
+  }
+}
